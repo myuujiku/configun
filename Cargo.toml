@@ -1,0 +1,12 @@
+[package]
+name = "configun"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+sha2 = "0.10"
+tar = "0.4"
+toml = "0.7"
+zstd = "0.12"
