@@ -16,7 +16,7 @@ pub fn get() -> io::Result<PathBuf> {
         if let Some(parent) = current.parent() {
             current = parent;
         } else {
-            return Err(Error::new(ErrorKind::Other, "Not a configun directory."));
+            return Err(Error::new(ErrorKind::Other, "Not a configun repository."));
         }
     }
 }
